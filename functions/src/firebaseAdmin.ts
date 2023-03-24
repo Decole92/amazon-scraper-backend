@@ -1,5 +1,5 @@
 import * as admin from "firebase-admin";
-import {getApps} from "firebase-admin/app";
+import { getApps } from "firebase-admin/app";
 
 /* eslint @typescript-eslint/no-var-requires: "off" */
 //const serviceAccount = require("../serviceAccountKey.json");
@@ -11,4 +11,4 @@ if (!getApps().length) {
 }
 
 const adminDb = admin.firestore();
-export {adminDb};
+export { adminDb };
